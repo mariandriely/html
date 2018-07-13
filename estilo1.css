@@ -1,0 +1,22 @@
+body {
+	font-family: Arial;
+}
+
+.center {
+	text-align: center;
+	font-size: 50px;
+}
+
+code { color:green; }
+code.attr { color: red; }
+code.url { color: blue; }
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+p { 
+	line-height: 30pt;
+	font-size: 25px;
+}
