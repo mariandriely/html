@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Tabelas HTML</title>
+		<style>
+			table#many tr:nth-child(even) {
+				background-color: #eee;
+			}
+			table#many,table#single,th,td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			table#single th,td {
+				padding: 39px;
+			}
+			th,td {padding: 15px}
+			td#null {text-align: center}
+			th {text-align: center}
+			td {text-align: left}
+		</style>
+	</head>
+	<body>
+		<table id="many" style="float: left">
+			<tr>
+				<th>Nome</th>
+				<th>Idade</th>
+				<th colspan="2">Profissão</th>
+			</tr>
+			<tr>
+				<td>Isaac</td>
+				<td>16</td>
+				<td>Estudante</td>
+				<td><i>Programador</i></td>
+			</tr>
+			<tr>
+				<td>Higor</td>
+				<td>19</td>
+				<td>Estudante</td>
+				<td>Arquiteto</td>
+			</tr>
+			<tr>
+				<td>Carlos</td>
+				<td>25</td>
+				<td>Engenheiro Elétrico</td>
+				<td id="null">-</td>
+			</tr>
+		</table>
+		<table id="single" style="float:left">
+			<tr>
+				<th>Nome</th>
+				<td>Isaac Marlon da Silva Lourenço</td>
+			</tr >
+			<tr>
+				<th rowspan="2">Número(s)</th>
+				<td>(84) 91787-5757</td>
+			</tr>
+			<tr>
+				<td>(84) 95699-9099</td>
+			</tr>
+		</table>
+	</body>
+</html>
