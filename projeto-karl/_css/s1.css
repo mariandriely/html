@@ -1,0 +1,71 @@
+body {
+	margin: 0px 0px 0px 0px;
+	font-family: Gothic;
+}
+
+img {
+	box-shadow: 2px 2px 100px black;
+	margin: 0;
+	border: none;
+}
+
+img#main {
+	position: relative;
+	float: right;
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: normal;
+	text-shadow: 2px 2px 40px gray; 
+}
+
+p {
+	text-indent: 25pt;
+	padding: 20px;
+}
+
+ul {
+	list-style-type: none;
+    overflow: hidden;
+	margin: 0;
+    background-color: #333333;
+	box-shadow: 2px 2px 40px black;
+}
+
+ul#menu {
+	display: flex;
+    justify-content: center;
+}
+
+li {float: left}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+	font-family: mono;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+li a:hover {background-color: #111111}
+
+/* DIV */
+
+div#pic {width:100%}
+
+div#rodape {
+	display: flex;
+    justify-content: center;
+	padding: 30px;
+	border: none;
+	margin: 0;
+	overflow: hidden;
+	background: #333333;
+	box-shadow: 2px 2px 40px black;
+	color: white;
+}
+
+
