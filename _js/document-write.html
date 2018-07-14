@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<body>
-		<p id="msg">Quanto é 3,14 + 1?</p>
+		<p id="msg">Quanto eh 3,14 + 1?</p>
 		<button onclick="writeAe()">Resposta</button>
+		<button onclick="ok()">Tchau</button>
 		<script>
 			function writeAe() {
 				document.write(3.14 + 1);
+			}
+			function ok() {
+				window.alert("Vou apertar pra voce!");
+				writeAe();
 			}
 		</script>
 	</body>
