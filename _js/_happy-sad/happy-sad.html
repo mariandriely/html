@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8"/>
 		<style>
-			div { text-align: center }
+			body {text-align: center}
+			div#img {'
+				display: block;
+			}
+			div#font {
+				display: block;
+				margin: 2px;
+			}
 		</style>
+		<script>
+			function normal() {
+				document.getElementById("pic").src='thinker.png';
+			}
+		</script>
 	</head>
 	<body>
-		<div>
-			<button onclick="document.getElementById('pic').src='happy.png'">Happy</button>
-			<img id="pic" src="happy.png" width="100" height="100" alt="pic not found"/>
-			<button onclick="document.getElementById('pic').src='sad.jpg'">Sad</button>
+		<center><img id="pic" width="100" height="100" alt="pic not found"/></center>
+		<div id="img">
+			<button onclick="document.getElementById('pic').src='happy.png'">Feliz</button>
+			<button onclick="document.getElementById('pic').src='sad.jpg'">Triste</button>
+			<button onclick="normal()">Pensante</button>
 		</div>
+		
+		<div id="font">
+			<button onclick="document.getElementById('pic').style.width= '200px'">Engorde</button>
+			<button onclick="document.getElementById('pic').style.width= '80px'">Emagreça</button>
+			<button onclick="document.getElementById('pic').style.width= '100px'">Fique normal</button>
+		</div>
+		<div id="display">
+			<button onclick="document.getElementById('pic').style.display= 'none'">Desapareça</button>
+			<button onclick="document.getElementById('pic').style.display= 'block'">Apareça</button>
+		</div>
+		<script>
+			document.getElementById("pic").src='thinker.png';
+		</script>
 	</body>
 </html>
