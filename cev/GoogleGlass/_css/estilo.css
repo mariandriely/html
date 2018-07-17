@@ -156,3 +156,22 @@ nav#menu a:hover {
     opacity: 1;
 }
 
+/* Formatação de tabela */
+
+div#tabela table {    
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+div#tabela table th {
+   text-align: right;
+   padding: 10px;
+   background-color: rgba(0,0,0,0.1);
+}
+
+div#tabela table td {
+   text-align: justify;
+   padding: 10px;
+}
+
