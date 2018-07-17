@@ -1,6 +1,7 @@
 body {
 	margin: 0px 0px 0px 0px;
 	font-family: Gothic;
+	background-image: url("_pic/fundo.jpg");
 }
 
 img {
@@ -36,6 +37,7 @@ ul {
 ul#menu {
 	display: flex;
     justify-content: center;
+	
 }
 
 li {float: left}
@@ -48,6 +50,7 @@ li a {
 	font-family: mono;
     text-decoration: none;
 	font-weight: bold;
+	transition: backgroun-color 1s; <!-- y? -->
 }
 
 li a:hover {background-color: #111111}
